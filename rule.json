@@ -19,7 +19,7 @@
   },
  {
     "id": "wuqiango",
-    "name": " 磁力链接与种子下载",
+    "name": " 吴谦磁力",
     "url": "https://wuqiango.xyz",
     "icon": "https://wuqiango.xyz/favicon.ico",
     "paths": {
@@ -32,6 +32,58 @@
       "size": "./div[3]/h4[1]/small[1]/span[1]",
       "date": "./div[3]/h4[1]/small[1]/span[3]",
       "hot": "./div[3]/h4[1]/small[1]/span[2]"
+   }
+  },
+  {
+    "id": "btsow",
+    "name": " BTSOW ",
+    "url": "https://btsow.click",
+    "icon": "https://btsow.click/favicon.ico",
+    "paths": {
+      "preset": "/search/{k}"
+    },
+    "xpath": {
+      "group": "//div[@class='row']",
+      "magnet": "./a[1]/@href",
+      "name": "./a[1]",
+      "size": "./div[1]",
+      "date": "./div[2]"
+    }
+   },
+  {
+    "id": "clm256",
+    "name": "磁力猫 ",
+    "url": "https://clm256.buzz",
+    "icon": "https://clm256.buzz/favicon.ico",
+    "paths": {
+      "preset": "/search-{k}-{p}-0-1.html",
+      "size": "/search-{k}-{p}-1-1.html",
+      "time": "/search-{k}-{p}-2-1.html"
+    },
+    "xpath": {
+      "group": "//div[@class='ssbox']",
+      "magnet": "./div[3]/span[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[4]/b[1]",
+      "hot": "./div[3]/span[5]/b[1]"
+    }
   }
- }
+  {
+    "id": "lemonho",
+    "name": " 磁力柠檬",
+    "url": "https://lemonho.xyz",
+    "icon": "https://lemonho.xyz/favicon.ico",
+    "paths": {
+      "preset": "/search?keyword={k}"
+    },
+    "xpath": {
+      "group": "//div[@class='panel panel-default border-radius']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/h4[1]/small[1]/span[1]",
+      "date": "./div[3]/h4[1]/small[1]/span[3]",
+      "hot": "./div[3]/h4[1]/small[1]/span[2]"
+    }
+  }
 ]
